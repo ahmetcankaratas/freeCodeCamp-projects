@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #284B63;
+    color: #FFFFFF;
+}
+
+main {
+  text-align: center;
+}
+
+#survey-form {
+  background-color: #162A38;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 5%;
+  padding-top: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 45px;
+}
+
+#name, #email, #number, #dropdown, #message {
+  width: 100%;
+  height: 25px;
+  margin-top: 5px;
+}
+
+#message {
+  height: 100px;
+}
+
+#submit {
+  height: 50px;
+  width: 100%;
+  background-color: #3C6E71;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width:700px) {
+  #survey-form {
+    max-width: 350px;
+  }
+  
+#submit {
+   height: 30px;
+  }
+}
