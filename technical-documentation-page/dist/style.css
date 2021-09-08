@@ -1,0 +1,114 @@
+/*Global Setting*/
+
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+#container {
+  display:flex;
+  flex-direction: row;
+}
+
+#navbar{
+  min-width: 300px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  border: 1px solid gray;
+}
+
+#navbar header{
+  font-size: 25px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+#navbar ul {
+  list-style-type: none;
+}
+
+#navbar li {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+#main-doc {
+  margin-left: 350px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+}
+
+#main-doc header{
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#main-doc p{
+  margin-left: 12px;
+  text-align: justify;
+  margin-right: 12px;
+  max-width: 1000px;
+  line-height: 24px;
+}
+
+#main-doc ul{
+  margin-left: 24px;
+}
+
+#main-doc code{
+  background-color: lightgray;
+  margin: 24px;
+  display: block;
+  padding: 12px;
+}
+
+
+/* MEDİA */
+@media only screen and (max-width:700px) {
+  #container {
+  flex-direction: column;
+}
+
+#navbar{
+  width: 100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 250px;
+  border: 1px solid gray;
+  overflow-x: scroll;
+  text-align: center;
+}
+
+#navbar header{
+  font-size: 25px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+
+#main-doc {
+  margin-left: 24px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+  
+}

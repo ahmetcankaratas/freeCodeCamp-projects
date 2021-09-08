@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #c7f0db;
+}
+
+#header {
+  background-color: #c7f0db;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  }
+
+#mainpage{
+  color: black;
+  font-size: 35px;
+  align-self: center;
+}
+
+
+header img {
+  margin: 10px;
+  align-self: center;
+}
+
+#nav-bar {
+  display:flex;
+}
+.nav-link {
+  margin: 60px;
+  color: black;
+  font-size: 18px;
+  align-self: center;
+  text-decoration: none;
+}
+
+section {
+  position: relative;
+  top: 82px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#number{
+  font-weight: bold;
+}
+
+#yellow{
+  color: #464159;
+  font-weight: bold;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 2%; 
+  margin: 10px;
+}
+
+#container h2 {
+  background-color: #6c7b95
+}
+
+#price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#container {
+  display: flex;
+  justify-content: center
+}
+
+#select {
+  background-color: #6c7b95;
+  color: white;
+  width: 120px;
+  height: 50px;
+}
+
+#submit {
+  margin-top: 15px;
+  background-color: #6c7b95;
+  color: white;
+  width: 120px;
+  height: 30px;
+}
+
+#email {
+  width: 250px;
+  height: 30px;
+}
+
+@media only screen and (max-width:700px) {
+  #header {
+    flex-direction: column;
+    position:static;
+  }
+  
+  #nav-bar {
+  flex-direction: column;
+}
+  
+section {
+   margin-top: 50px;
+  }
+
+  header img {
+  margin: 5px;
+  height: 36px;
+}
+
+  #mainpage{
+  color: black;
+  font-size: 17px;
+  align-self: center;
+}
+  
+  #logo {
+  margin: 1px auto;
+  background-color: #8bbabb;
+  width: 100%;
+  justify-content: center;
+  }
+  
+  .nav-link {
+   margin: 1px auto;
+   background-color: #8bbabb;
+   width: 100%;
+   text-align: center;
+   height: 46px;
+   align-self: center;
+  }
+  
+  #video {
+    width: 260px;
+  }
+}
