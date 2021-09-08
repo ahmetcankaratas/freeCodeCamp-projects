@@ -1,3 +1,6 @@
 [submodule "fcc-issue-tracker"]
 	path = fcc-issue-tracker
 	url = https://github.com/lingardium/fcc-issue-tracker.git
+[submodule "fcc-personel-portfolio"]
+	path = fcc-personel-portfolio
+	url = https://github.com/lingardium/fcc-personel-portfolio.git
