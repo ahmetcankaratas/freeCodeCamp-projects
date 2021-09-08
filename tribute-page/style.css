@@ -1,0 +1,51 @@
+#main {
+   font-family: Helvetica, sans-serif;
+   height: 100px;
+   background-color: WhiteSmoke;
+   padding: 20px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   text-align: center;
+}
+
+#maintitle {
+  text-align: center;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  background-color: white;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  align-self: center;
+}
+#img-caption {
+  align-self: center;
+}
+
+#tribute-info {
+  background-color: WhiteSmoke;
+
+}
+
+#tribute-info h2, footer {
+  text-align: center;
+}
+
+p {
+  text-align: justify
+}
+
+#section1 {
+  width: 70%;
+  margin: auto;
+}
+
+#more_detail {
+  
+}
