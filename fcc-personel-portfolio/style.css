@@ -1,0 +1,155 @@
+/*Global Setting*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*NAV BAR*/
+#navbar{
+  height: 75px;
+  width: 100%;
+  background-color: #d35656;
+  position: fixed;
+  top: 0px;
+  left 0px;
+  z-index: 1;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+#navbar li {
+  margin: 25px;
+}
+
+#navbar li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#welcome-section{
+  margin-top: 75px;
+  height: 100vh;
+  background-color: #3c3d47; 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container h1 {
+  font-size: 50px;
+  color: white;
+}
+
+#container h2 {
+  color: #d35656;
+  padding-left: 60px;
+}
+
+#projects {
+  padding-top: 60px;
+  height: 600px;
+  width: 100%;
+  background-color: #f9d5bb;
+  text-align: center;
+}
+
+#projects p {
+  font-size: 35px;
+  text-decoration: underline;
+  color: #3c3d47; 
+}
+
+#project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-tile {
+  min-width: 400px;
+  min-height: 100px;
+  background-color: #3c3d47;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-tile a {
+  color: white;
+  text-decoration: none;
+}
+
+
+#button {
+  margin-top: 15px;
+  height: 50px;
+  width: 150px;
+  background-color: #3c3d47;
+}
+
+#profile-link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#contact {
+  height: 600px;
+  width: 100%;
+  background-color: #3c3d47;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contact h1{
+  color: white;
+  font-size: 45px;
+}
+
+#mail {
+  font-size: 25px;
+  color: white;
+  font-weight:200;
+}
+
+footer {
+  border-top: 3px solid red;
+  background-color: #3c3d47;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#created {
+  margin-right: 50px;
+}
+
+@media only screen and (max-width:900px)
+{
+  .project-tile {
+  min-width: 300px;
+  min-height: 75px;
+  margin: 10px;
+}
+  #projects {
+  padding-top: 40px;
+  height: 800px;
+}
