@@ -1,3 +1,15 @@
 [submodule "fcc-issue-tracker"]
 	path = fcc-issue-tracker
 	url = https://github.com/lingardium/fcc-issue-tracker.git
+[submodule "fcc-metric-imperial-converter"]
+	path = fcc-metric-imperial-converter
+	url = https://github.com/lingardium/fcc-metric-imperial-converter.git
+[submodule "fcc-personal-library"]
+	path = fcc-personal-library
+	url = https://github.com/lingardium/fcc-personal-library.git
+[submodule "fcc-stock-price-checker"]
+	path = fcc-stock-price-checker
+	url = https://github.com/lingardium/fcc-stock-price-checker.git
+[submodule "fcc-anonymous-message-board"]
+	path = fcc-anonymous-message-board
+	url = https://github.com/lingardium/fcc-anonymous-message-board.git
