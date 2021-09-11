@@ -13,3 +13,6 @@
 [submodule "fcc-anonymous-message-board"]
 	path = fcc-anonymous-message-board
 	url = https://github.com/lingardium/fcc-anonymous-message-board.git
+[submodule "visualize-data-with-a-treemap"]
+	path = visualize-data-with-a-treemap
+	url = https://github.com/lingardium/visualize-data-with-a-treemap.git
