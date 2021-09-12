@@ -16,3 +16,18 @@
 [submodule "visualize-data-with-a-treemap"]
 	path = visualize-data-with-a-treemap
 	url = https://github.com/lingardium/visualize-data-with-a-treemap.git
+[submodule "fcc-timestamp-microservice"]
+	path = fcc-timestamp-microservice
+	url = https://github.com/lingardium/fcc-timestamp-microservice
+[submodule "fcc-request-header-parser-microservice"]
+	path = fcc-request-header-parser-microservice
+	url = https://github.com/lingardium/fcc-request-header-parser-microservice
+[submodule "fcc-url-shortener-microservice"]
+	path = fcc-url-shortener-microservice
+	url = https://github.com/lingardium/fcc-url-shortener-microservice
+[submodule "fcc-exercise-tracker"]
+	path = fcc-exercise-tracker
+	url = https://github.com/lingardium/fcc-exercise-tracker
+[submodule "fcc-file-metadata-microservice"]
+	path = fcc-file-metadata-microservice
+	url = https://github.com/lingardium/fcc-file-metadata-microservice
