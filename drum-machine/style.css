@@ -1,0 +1,50 @@
+body {
+  background-color: lightblue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#drum-machine{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 250px;
+  background-color: silver;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+  .drum-pad{
+    background-color: Silver;
+    width: 20%;
+    height: 50px;
+    margin: 10px;
+    font-weight: 700;
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 9px #999;
+  }
+
+
+#display {
+  background-color: Silver;
+    width: 66%;
+    height: 50px;
+    margin: 10px;
+    font-weight: 700;
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
