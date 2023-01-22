@@ -2,11 +2,13 @@
 
 Project #1 of the "Data Visualization" certification on freeCodeCamp.
 
-Live URL: https://ahmetcankaratas.github.io/freecodecamp-projects/
+Live URL: https://ahmetcankaratas.github.io/freecodecamp-projects/visualize-data-with-a-bar-chart/
 
 ## 📷 Screenshots
 
 Main Page
+
+<img width="1435" alt="Screen Shot 2023-01-22 at 22 16 26" src="https://user-images.githubusercontent.com/53529387/213935482-5f8a08b9-b9b4-4d90-864e-8892f9c43423.png">
 
 ### User stories:
 
