@@ -6,7 +6,10 @@ Live URL: https://ahmetcankaratas.github.io/freecodecamp-projects/magic-quote-ma
 
 ## 📷 Screenshots
 
-Main Page
+![Screenshot 2023-02-05 at 22 26 56](https://user-images.githubusercontent.com/53529387/216840466-9bc8138c-5d42-4a97-b015-b8b0696e4410.png)
+
+
+Main Page!
 
 ### User stories:
 
