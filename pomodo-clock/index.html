@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Build a Pomodoro Clock</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <audio
+      id="beep"
+      src="https://www.soundjay.com/button/sounds/button-2.mp3"
+      type="audio/mpeg"
+    ></audio>
+    <div class="text-center">
+      <h1>Pomodoro Clock</h1>
+      <div class="timeDiv">
+        <h2 id="session-label">Session Length</h2>
+        <a href="#" class="btn btn-primary" id="session-decrement">-</a>
+        <h2 id="timeType"></h2>
+        <h2 id="session-length">25</h2>
+        <a href="#" id="session-increment" class="btn btn-primary">+</a>
+      </div>
+
+      <div id="breakDiv">
+        <h2 id="break-label">Break Length</h2>
+        <a href="#" class="btn btn-primary" id="break-decrement">-</a>
+        <h2 id="break-length">5</h2>
+        <a href="#" id="break-increment" class="btn btn-primary">+</a>
+      </div>
+
+      <div id="timer-wrapper">
+        <h1 id="timer-label">Session</h1>
+        <h2 id="time-left">25:00</h2>
+      </div>
+
+      <div class="timer-control">
+        <a href="#" class="btn btn-primary" id="start_stop">Start</a>
+
+        <a href="#" class="btn btn-primary" id="reset">Reset</a>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

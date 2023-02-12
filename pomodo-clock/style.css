@@ -1,0 +1,13 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+h2{
+  display: inline
+}
+
+.timer-control{
+  display: inline;
+  padding: 5px;
+}
