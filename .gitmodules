@@ -1,33 +1,30 @@
-[submodule "fcc-issue-tracker"]
-	path = fcc-issue-tracker
-	url = https://github.com/lingardium/fcc-issue-tracker.git
-[submodule "fcc-metric-imperial-converter"]
-	path = fcc-metric-imperial-converter
-	url = https://github.com/lingardium/fcc-metric-imperial-converter.git
-[submodule "fcc-personal-library"]
-	path = fcc-personal-library
-	url = https://github.com/lingardium/fcc-personal-library.git
-[submodule "fcc-stock-price-checker"]
-	path = fcc-stock-price-checker
-	url = https://github.com/lingardium/fcc-stock-price-checker.git
-[submodule "fcc-anonymous-message-board"]
-	path = fcc-anonymous-message-board
-	url = https://github.com/lingardium/fcc-anonymous-message-board.git
-[submodule "visualize-data-with-a-treemap"]
-	path = visualize-data-with-a-treemap
-	url = https://github.com/lingardium/visualize-data-with-a-treemap.git
-[submodule "fcc-url-shortener-microservice"]
-	path = fcc-url-shortener-microservice
-	url = https://github.com/lingardium/fcc-url-shortener-microservice
-[submodule "fcc-exercise-tracker"]
-	path = fcc-exercise-tracker
-	url = https://github.com/lingardium/fcc-exercise-tracker
-[submodule "fcc-file-metadata-microservice"]
-	path = fcc-file-metadata-microservice
-	url = https://github.com/lingardium/fcc-file-metadata-microservice
 [submodule "back-end-development-and-apis/fcc-timestamp-microservice"]
 	path = back-end-development-and-apis/fcc-timestamp-microservice
 	url = git@github.com:ahmetcankaratas/fcc-timestamp-microservice.git
 [submodule "back-end-development-and-apis/fcc-request-header-parser-microservice"]
 	path = back-end-development-and-apis/fcc-request-header-parser-microservice
 	url = https://github.com/ahmetcankaratas/fcc-request-header-parser-microservice
+[submodule "back-end-development-and-apis/fcc-url-shortener-microservice"]
+	path = back-end-development-and-apis/fcc-url-shortener-microservice
+	url = git@github.com:ahmetcankaratas/fcc-url-shortener-microservice.git
+[submodule "back-end-development-and-apis/fcc-exercise-tracker"]
+	path = back-end-development-and-apis/fcc-exercise-tracker
+	url = https://github.com/ahmetcankaratas/fcc-exercise-tracker
+[submodule "back-end-development-and-apis/fcc-file-metadata-microservice"]
+	path = back-end-development-and-apis/fcc-file-metadata-microservice
+	url = https://github.com/ahmetcankaratas/fcc-file-metadata-microservice
+[submodule "information-security-and-quality-assurance/fcc-metric-imperial-converter"]
+	path = information-security-and-quality-assurance/fcc-metric-imperial-converter
+	url = git@github.com:ahmetcankaratas/fcc-metric-imperial-converter.git
+[submodule "information-security-and-quality-assurance/fcc-issue-tracker"]
+	path = information-security-and-quality-assurance/fcc-issue-tracker
+	url = https://github.com/ahmetcankaratas/fcc-issue-tracker
+[submodule "information-security-and-quality-assurance/fcc-personal-library"]
+	path = information-security-and-quality-assurance/fcc-personal-library
+	url = git@github.com:ahmetcankaratas/fcc-personal-library.git
+[submodule "information-security-and-quality-assurance/fcc-stock-price-checker"]
+	path = information-security-and-quality-assurance/fcc-stock-price-checker
+	url = https://github.com/ahmetcankaratas/fcc-stock-price-checker
+[submodule "information-security-and-quality-assurance/fcc-anonymous-message-board"]
+	path = information-security-and-quality-assurance/fcc-anonymous-message-board
+	url = https://github.com/ahmetcankaratas/fcc-anonymous-message-board
